@@ -13,7 +13,7 @@
     "url": "https://seahorse-app-beb8g.ondigitalocean.app//.well-known/openapi.yaml",
     "has_user_authentication": false
   },
-  "logo_url": "https://seahorse-app-beb8g.ondigitalocean.app//.well-known/logo.png",
+  "logo_url": "https://seahorse-app-beb8g.ondigitalocean.app//.well-known/logo1.png",
   "contact_email": "hello@contact.com", 
   "legal_info_url": "http://example.com/legal-info"
 }
