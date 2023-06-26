@@ -1,6 +1,6 @@
 openapi: 3.0.0
 info:
-  title: SCIAM Test Retrieval Plugin API
+  title: SCIAM Test Retrieval Plugin API 2023
   version: 1.0.0
   description: This API lets you search through the LangChain Documentation.
 servers:
