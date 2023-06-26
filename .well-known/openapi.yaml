@@ -1,10 +1,10 @@
 openapi: 3.0.2
 info:
-  title: Retrieval Plugin API
-  description: A retrieval API for querying and filtering documents based on natural language queries and metadata
+  title: LangChain Docs API SCIAM TEST
+  description: This API lets you search through the LangChain Documentation
   version: 1.0.0
   servers:
-    - url: https://your-app-url.com
+    - url: https://monkfish-app-onc5k.ondigitalocean.app/
 paths:
   /query:
     post:
