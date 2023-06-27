@@ -1,7 +1,7 @@
 {
   "schema_version": "v1",
-  "name_for_model": "SCIAM TEST - langchain_docs_db",
-  "name_for_human": "SCIAM TEST - Langchain Docs",
+  "name_for_model": "SCIAM_TEST_langchain_docs_db",
+  "name_for_human": "SCIAM_TEST_Langchain Docs",
   "description_for_model": "Use this tool to get up to date information about the LangChain Python Library. Do not use this tool if the user did not ask about langchain",
   "description_for_human": "Up to date information about langchain Python Library",
   "auth": {
