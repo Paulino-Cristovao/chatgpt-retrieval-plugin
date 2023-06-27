@@ -9,9 +9,9 @@
   },
   "api": {
     "type": "openapi",
-    "url": "https://your-app-url.com/.well-known/openapi.yaml"
+    "url": "https://goldfish-app-bsexf.ondigitalocean.app/.well-known/openapi.yaml"
   },
-  "logo_url": "https://your-app-url.com/.well-known/logo.png",
+  "logo_url": "https://goldfish-app-bsexf.ondigitalocean.app/.well-known/logo1.png",
   "contact_email": "hello@contact.com", 
   "legal_info_url": "hello@legal.com"
 }

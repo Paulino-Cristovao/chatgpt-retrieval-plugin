@@ -19,8 +19,9 @@ from services.file import get_document_from_file
 
 from models.models import DocumentMetadata, Source
 
+BEARER_TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiUGF1bGlubyBDcmlzdG92YW8ifQ.R2d-I_EFYijD37j1xOCEZR493u-GLLY9SJ63gBDn33w"
 bearer_scheme = HTTPBearer()
-BEARER_TOKEN = os.environ.get("BEARER_TOKEN")
+BEARER_TOKEN = os.environ.get("BEARER_TOKEN") or BEARER_TOKEN
 assert BEARER_TOKEN is not None
 
 
@@ -38,7 +39,7 @@ sub_app = FastAPI(
     title="Retrieval Plugin API",
     description="A retrieval API for querying and filtering documents based on natural language queries and metadata",
     version="1.0.0",
-    servers=[{"url": "https://monkfish-app-onc5k.ondigitalocean.app/"}],
+    servers=[{"url": "https://goldfish-app-bsexf.ondigitalocean.app/"}],
     dependencies=[Depends(validate_token)],
 )
 app.mount("/sub", sub_app)
